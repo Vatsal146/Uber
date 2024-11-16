@@ -1,6 +1,5 @@
 package com.project.uber.uber.dto;
 
-import com.project.uber.uber.entities.Rider;
 import com.project.uber.uber.entities.enums.PaymentMethod;
 import com.project.uber.uber.entities.enums.RideStatus;
 import lombok.AllArgsConstructor;
