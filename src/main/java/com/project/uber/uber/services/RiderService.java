@@ -23,4 +23,6 @@ public interface RiderService {
 
     Rider createRider(User user);
 
+    Rider getCurrentRider();
+
 }
