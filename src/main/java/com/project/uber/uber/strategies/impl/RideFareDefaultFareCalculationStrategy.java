@@ -1,11 +1,9 @@
 package com.project.uber.uber.strategies.impl;
 
-import com.project.uber.uber.dto.RideRequestDto;
 import com.project.uber.uber.entities.RideRequest;
 import com.project.uber.uber.services.DistanceService;
 import com.project.uber.uber.strategies.RideFareCalculationStrategy;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import static com.project.uber.uber.services.DistanceService.RIDE_FARE_MULTIPLIER;
